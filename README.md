@@ -1,6 +1,6 @@
 # Website Blocker
 
-This is a simple web blocker written in python that runs in the background. This script will block access to any websites that falls within a daily time period. It works by adding forbidden website addresses to the hosts files during the time interval where you wish to go undisturbed. This is perfect for staying focused during work hours instead of wasting hours browsing Facebook, Amazon or your_other_vice.
+This is a simple web blocker written in python that runs in the background. This script will block access to any websites that fall within a daily time period. It works by adding forbidden website addresses to the hosts files during the time interval where you wish to go undisturbed. This is perfect for staying focused during work hours instead of wasting hours browsing Facebook, Amazon or your_other_vice.
 
 
 ### How to use
