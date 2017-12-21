@@ -6,7 +6,7 @@ redirect="127.0.0.1"
 websites_list=["www.facebook.com", "facebook.com", "www.lifehacker.com", "lifehacker.com"]
 
 while True:
-    if dt(dt.now().year, dt.now().month, dt.now().day, 8) < dt.now() < dt(dt.now().year, dt.now().month, dt.now().day, 23) :
+    if dt(dt.now().year, dt.now().month, dt.now().day, 8) < dt.now() < dt(dt.now().year, dt.now().month, dt.now().day, 17) :
         print("Working Hours")
         with open(hosts_temp, 'r+') as file:
             content=file.read()
@@ -23,9 +23,8 @@ while True:
             for line in content:
                 if not any(website in line for website in websites_list):
                     file.write(line)
-            file.write('testt')
             file.truncate()
-        print("not working hors")
+        print("fun hours")
 
 
 
